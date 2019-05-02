@@ -8,7 +8,7 @@ using namespace std;
 int main(int argc, char* argv[])
 {
     CMotor myMotor;
-
+    // 11537 == 1 cm
     string cmd = "en0\n";
     myMotor.writePort(cmd);
     cmd = "SP2000\n";
@@ -17,12 +17,12 @@ int main(int argc, char* argv[])
 //    cmd = "v0\n";
 //    myMotor.writePort(cmd);
 
-   for (int i=0;i<10;i++){
-       cmd = "LR11537\n";
+   for (int i=0;i<2;i++){
+       cmd = "LR-115370\n";
        myMotor.writePort(cmd);
        cmd = "m\n";
        myMotor.writePort(cmd);
-       sleep(10);
+       sleep(3);
    }
 
   return 0; 
