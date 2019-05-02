@@ -1,11 +1,3 @@
-/*
- *  Apr. 21 2017
- *  Modified by He Zhang, hxzhang1@ualr.edu 
- *  
- *  TODO: adjust rotate velocity 
- *
- * */
-
 // #ifndef _SERIALPORTCONTROL_HPP
 // #define _SERIALPORTCONTROL_HPP
 #pragma once 
